@@ -10,7 +10,7 @@ One neural network, called the generator, generates new data instances, while th
 <br/>
 
 ### GAN Steps
-<img src="https://skymind.ai/images/wiki/GANs.png", alt="MNIST and GANs">
+<img src="https://skymind.ai/images/wiki/GANs.png">
 <br/>
 
 <ul>
@@ -26,6 +26,7 @@ The code was impplemented using Python 3, and had the follow dependences:<br/>
   <li>Keras</li>
   <li>Numpy</li>
 </ul>
+
 ## Results
 <img src="https://matheusfacure.github.io/img/tutorial/vanilla_gan/digit_gan.gif">
 The results can be seen above. Notice how, at the beginning of the training, RAG produces only noise. As the training happens, the generated images come closer and closer with handwritten digits. Eventually, the generated images all resemble each other. That means the training has collapsed. Or the generator has found that producing ones is a shortcut to trick the discriminator easily, or the discriminator is at a very low cost.
